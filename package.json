@@ -1,0 +1,21 @@
+{
+  "name": "0007-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "serve": "cross-env PORT=9529 nodemon server.js"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-add-module-exports": "^1.0.4",
+    "babel-preset-env": "^1.7.0",
+    "cors": "^2.8.5",
+    "winston": "^3.8.1"
+  }
+}
