@@ -8,6 +8,4 @@ const user = (app)=>{
   // app.use("/api",router)
   app.use("/",router)
 }
-module.exports = {
-  user
-}
+module.exports = user
